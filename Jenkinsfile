@@ -27,10 +27,10 @@ node() {
                    activeDeadlineSeconds: 300],
         service: [:],
         applications: [
-            [ name: "my-test-app-sec", description: "This is used for tests", plan: "test", account: "ndobler" ]
+            [ name: "my-test-app-sec", description: "This is used for tests", plan: "test-sec", account: "ndobler" ]
         ],
         applicationPlans: [
-          [ systemName: "tes-sect", name: "test-sec", defaultPlan: true, published: true ]
+          [ systemName: "test-sec", name: "test-sec", defaultPlan: true, published: true ]
         ]
     )
 

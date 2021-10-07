@@ -1,8 +1,8 @@
 ---
 openapi: 3.0.3
 info:
-  title: librarycore API
-  version: 1.0.0-SNAPSHOT
+  title: librarycore API Secure
+  version: 2.0.0-SNAPSHOT
 paths:
   /books:
     put:
